@@ -11,7 +11,7 @@
   </parent>
   <groupId>com.ddsof</groupId>
   <artifactId>jenkins-boot</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>jenkins-boot</name>
   <description>Demo project for Spring Boot</description>
   <properties>
@@ -52,6 +52,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
+          <outputDirectory>/usr/local/download/jenkins/</outputDirectory>
           <mainClass>
             com.ddsof.jenkinsboot.JenkinsBootApplication
           </mainClass>
@@ -64,6 +65,7 @@
         </configuration>
       </plugin>
     </plugins>
+
   </build>
 
 </project>
