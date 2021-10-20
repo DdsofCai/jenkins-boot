@@ -10,6 +10,6 @@ public class IndexController {
 
     @GetMapping("/display")
     public String index(){
-        return "jenkins-test";
+        return "jenkins-boot";
     }
 }
