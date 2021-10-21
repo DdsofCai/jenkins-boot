@@ -39,6 +39,7 @@
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
           <finalName>jenkins-boot</finalName>
+          <outputDirectory>/usr/local/download/data/</outputDirectory>
           <mainClass>
             com.ddsof.jenkinsboot.JenkinsBootApplication
           </mainClass>
